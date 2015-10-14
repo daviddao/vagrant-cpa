@@ -1,3 +1,5 @@
+# Author: David Dao (daviddao@broadinstitute.org)
+
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
@@ -76,13 +78,6 @@ Vagrant.configure(2) do |config|
     apt-get install -y git python-h5py python-zmq python-matplotlib cython openjdk-7-jdk python-wxgtk2.8 python-scipy python-mysqldb python-vigra
     export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
     export LD_LIBRARY_PATH=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-7-openjdk-amd64:/usr/lib/jvm/java-7-openjdk-amd64/include
-
-    # Clones CellProfiler & s it
-    # git clone https://github.com/CellProfiler/CellProfiler.git
-    # cd CellProfiler/ 
-    # git checkout 2.1.1
-    # python CellProfiler.py
-
     # Install pip and javabridge
     sudo apt-get install python-setuptools -y
     easy_install pip
