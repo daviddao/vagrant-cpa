@@ -1,7 +1,7 @@
-## Vagrant Environment for CellProfiler
+# Vagrant Environment for CellProfiler
 
 ## Setup
-### First install dependencies
+### Install dependencies
 - Install [Vagrant](https://www.vagrantup.com/)
 - Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
